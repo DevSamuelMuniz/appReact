@@ -1,0 +1,87 @@
+@import "@fontsource/lexend";
+
+
+.App-logo{
+  width: 160px;
+  height: auto;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+
+ .nome-logo{
+  color: #DB471B;
+  text-align: center;
+  font-family: Lexend;
+  font-size: 37.6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+ }
+
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+ }
+ 
+ .navbar-button {
+  background: none;
+  border: none;
+ }
+ 
+ .nav-ajuda{
+  width: 50px;
+  cursor: pointer;
+ }
+
+ .nav-logo{
+  width: 50px;
+ }
+ 
+ .nav-config{
+  width: 40px;
+  cursor: pointer;
+ }
+
+.ctn-input{
+ display: flex;
+ position: relative;
+ justify-content: center;
+ align-items: center;
+ padding-top: 24px;
+}
+
+.search-med{
+ width: 60%;
+ height: 34px;
+ border-radius: 25px;
+ padding-left: 20px;
+ background: none;
+ border-color: #5A5A5A;
+ font-size: 16px;
+ position: relative;
+}
+
+.btn-lupa{
+ width: 24px;
+ height: 24px;
+ position: relative;
+ right: 28px;
+ cursor: pointer;
+
+ background: none;
+border: none;
+}
+
+
+.carrossel-1{
+  padding: 44px;
+}
